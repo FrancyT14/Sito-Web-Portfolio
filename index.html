@@ -29,7 +29,7 @@
     <main class="main">
       <!-- Anteprima della sezione -->
       <section class="main__home home" id="home">
-        <h1 class="home__title">NOME COGNOME</h1>
+        <h1 class="home__title">FRANCESCO TURRIN</h1>
         <p class="home__subtitle">WEB-DEVELOPER, PROGRAMMATORE PYTHON</p>
       </section>
       <!-- Sezione "Chi sono" -->
@@ -37,9 +37,9 @@
         <h2 class="about__title">ABOUT ME</h2>
         <div class="about__info info-block">
           <p class="info-block__text">
-            Informare su di me Informare su di me Informare su di me Informare su di me
-            Informare su di me Informare su di me Informare su di me Informare su di me
-            Informare su di me
+            Sono un programmatore che ha iniziato a programmare python nel 2024 all'età di 10.
+            Prima ho imparato a programmare i giochi, i pygame, e adesso sto imparando a programmare i siti web
+            come questo!
           </p>
           <img
             class="info-block__img"
@@ -118,6 +118,12 @@
       <section class="main__feedback feedback" id="feedback">
         <h2 class="feedback__title">FEEDBACK</h2>
         <form action="" method="POST" class="feedback__form form">
+          <label for="name">
+            <input type="text" class="form__input" name="name" id="name" placeholder="Inserire il nome" required>
+          </label>
+          <label for="surname">
+            <input type="text" class="form__input" name="surname" id="surname" placeholder="Inserire il cognome" required>
+          </label>
           <label for="email">
             <input type="email" class="form__input" name="email" id="email" placeholder="Inserire l'e-mail" required>
           </label>
